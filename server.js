@@ -11,7 +11,7 @@ const db = knex({
 client: 'pg',
 connection:{
 	host : '127.0.0.1',
-	user : 'jduff',
+	user : 'user',
 	password: '',
 	database: 'smart-brain'
 
@@ -52,7 +52,7 @@ app.use(cors());
 // }
 
 const app2 = new Clarifai.App({
- apiKey: 'a02e73c421414cbb9e5a72c66a80dd87'
+ apiKey: 'insert api key here'
 });
 
 const handleApiCall = (req, res) => {
